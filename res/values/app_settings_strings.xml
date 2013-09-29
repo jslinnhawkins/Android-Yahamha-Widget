@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="as_receiver_type">receiver_type</string>
+	<string name="dsp_description_title">Available Sound Fields</string>
+	<string name="dsp_description_summary">Select the sound fields that should be available from the home screen</string>
+	
+	
+	<string name="pref_rate">ratekey</string>
+	
+	<string name="pref_enable_acra">Enable Debug</string>
+	<string name="pref_acra_disabled">Enable to send log information to the developers</string>
+	<string name="pref_acra_enabled">Log information is sent to the developers to solve problems with the application</string>
+	
+	<string name="input_description_title">Available Sources</string>
+	<string name="input_description_summary">Select the sources that should be available from the home screen</string>
+	
+	<string name="as_k_receiver_ip">as_k_receiver_ip</string>
+	<string name="as_receiver_ip_txt">Receiver IP Address</string>
+	<string name="as_receiver_ip_sum">Set the IP Address of the receiver</string>
+	
+	<string name="as_zone_max_volume_txt">Maximum Zone Volume</string>
+	<string name="as_zone_max_volume_sum">Configure the maximum volume for each zone</string>
+	
+	<string name="as_available_zones_txt">Set Available Zones</string>
+	<string name="as_available_zones_sum">Select the zones that should appear in the program</string>
+	
+	<string name="as_available_inputs_txt">Available Sources</string>
+	<string name="as_available_inputs_sum">Configuration of the input sources</string>
+	
+	<string name="as_available_dsps_txt">Available Sound Fields</string>
+	<string name="as_available_dsps_sum">Configuration of the sound fields</string>
+	
+	
+	<string name="dspselkey_hall_in_munich">dspsel_hall_in_munich</string>
+	<string name="dspselkey_hall_in_vienna">dspsel_hall_in_vienna</string>
+	<string name="dspselkey_hall_in_amsterdam">dspsel_hall_in_amsterdam</string>
+	<string name="dspselkey_church_in_freiburg">dspsel_church_in_freiburg</string>
+	<string name="dspselkey_chamber">dspsel_chamber</string>
+	<string name="dspselkey_village_vanguard">dspsel_village_vanguard</string>
+	<string name="dspselkey_warehouse_loft">dspsel_warehouse_loft</string>
+	<string name="dspselkey_cellar_club">dspsel_cellar_club</string>
+	<string name="dspselkey_the_roxy_theatre">dspsel_the_roxy_theatre</string>
+	<string name="dspselkey_the_bottom_line">dspsel_the_bottom_line</string>
+	<string name="dspselkey_sports">dspsel_sports</string>
+	<string name="dspselkey_action_game">dspsel_action_game</string>
+	<string name="dspselkey_roleplaying_game">dspsel_roleplaying_game</string>
+	<string name="dspselkey_music_video">dspsel_music_video</string>
+	<string name="dspselkey_recitalopera">dspsel_recitalopera</string>
+	<string name="dspselkey_standard">dspsel_standard</string>
+	<string name="dspselkey_spectacle">dspsel_spectacle</string>
+	<string name="dspselkey_scifi">dspsel_scifi</string>
+	<string name="dspselkey_adventure">dspsel_adventure</string>
+	<string name="dspselkey_drama">dspsel_drama</string>
+	<string name="dspselkey_mono_movie">dspsel_mono_movie</string>
+	<string name="dspselkey_2ch_stereo">dspsel_2ch_stereo</string>
+	<string name="dspselkey_7ch_stereo">dspsel_7ch_stereo</string>
+	<string name="dspselkey_straight_enhancer">dspsel_straight_enhancer</string>
+	<string name="dspselkey_7ch_enhancer">dspsel_7ch_enhancer</string>
+	<string name="dspselkey_surround_decode">dspsel_surround_decode</string>
+	
+	<string name="dspseltxt_hall_in_munich">Hall in Munich</string>
+	<string name="dspseltxt_hall_in_vienna">Hall in Vienna</string>
+	<string name="dspseltxt_hall_in_amsterdam">Hall in Amsterdam</string>
+	<string name="dspseltxt_church_in_freiburg">Church in Freiburg</string>
+	<string name="dspseltxt_chamber">Chamber</string>
+	<string name="dspseltxt_village_vanguard">Village Vanguard</string>
+	<string name="dspseltxt_warehouse_loft">Warehouse Loft</string>
+	<string name="dspseltxt_cellar_club">Cellar Club</string>
+	<string name="dspseltxt_the_roxy_theatre">The Roxy Theatre</string>
+	<string name="dspseltxt_the_bottom_line">The Bottom Line</string>
+	<string name="dspseltxt_sports">Sports</string>
+	<string name="dspseltxt_action_game">Action Game</string>
+	<string name="dspseltxt_roleplaying_game">Roleplaying Game</string>
+	<string name="dspseltxt_music_video">Music Video</string>
+	<string name="dspseltxt_recitalopera">Recital/Opera</string>
+	<string name="dspseltxt_standard">Standard</string>
+	<string name="dspseltxt_spectacle">Spectacle</string>
+	<string name="dspseltxt_scifi">Sci-Fi</string>
+	<string name="dspseltxt_adventure">Adventure</string>
+	<string name="dspseltxt_drama">Drama</string>
+	<string name="dspseltxt_mono_movie">Mono Movie</string>
+	<string name="dspseltxt_2ch_stereo">2ch Stereo</string>
+	<string name="dspseltxt_7ch_stereo">7ch Stereo</string>
+	<string name="dspseltxt_straight_enhancer">Straight Enhancer</string>
+	<string name="dspseltxt_7ch_enhancer">7ch Enhancer</string>
+	<string name="dspseltxt_surround_decode">Surround Decode</string>
+
+    <string name="as_inputsel_menu">as_inputsel_menu</string>
+    <string name="as_dspsel_menu">as_dspsel_menu</string>
+    
+     <string name="inputsel_none">inputsel_none</string>
+    
+    <!-- 2065 receiver -->
+    <string name="inputsel_hdmi1">inputsel_hdmi1</string>
+    <string name="inputsel_hdmi2">inputsel_hdmi2</string>
+    <string name="inputsel_hdmi3">inputsel_hdmi3</string>
+    <string name="inputsel_hdmi4">inputsel_hdmi4</string>
+    <string name="inputsel_av1">inputsel_av1</string>
+    <string name="inputsel_av2">inputsel_av2</string>
+    <string name="inputsel_av3">inputsel_av3</string>
+    <string name="inputsel_av4">inputsel_av4</string>
+    <string name="inputsel_av5">inputsel_av5</string>
+    <string name="inputsel_av6">inputsel_av6</string>
+    <string name="inputsel_audio1">inputsel_audio1</string>
+    <string name="inputsel_audio2">inputsel_audio2</string>
+    <string name="inputsel_pc">inputsel_pc</string>
+    
+    <!-- 2065 and Others -->
+    <string name="inputsel_rhapsody">inputsel_rhapsody</string>
+    <string name="inputsel_usb">inputsel_usb</string>
+    <string name="inputsel_sirius_internet">inputsel_sirius_internet</string>
+    <string name="inputsel_phono">inputsel_phono</string>
+    <string name="inputsel_md_cdr">inputsel_md_cdr</string>
+    <string name="inputsel_dvd">inputsel_dvd</string>
+    <string name="inputsel_dock">inputsel_dock</string>
+    <string name="inputsel_dvr">inputsel_dvr</string>
+    <string name="inputsel_cd">inputsel_cd</string>
+    <string name="inputsel_vaux">inputsel_vaux</string>
+    <string name="inputsel_bluetooth">inputsel_bluetooth</string>
+    <string name="inputsel_tv">inputsel_tv</string>
+    <string name="inputsel_pc_mcx">inputsel_pc_mcx</string>
+    <string name="inputsel_tuner">inputsel_tuner</string>
+    <string name="inputsel_cbl_sat">inputsel_cbl_sat</string>
+    <string name="inputsel_vcr">inputsel_vcr</string>
+    <string name="inputsel_sirius">inputsel_sirius</string>
+    <string name="inputsel_bdhddvd">inputsel_bdhddvd</string>
+    <string name="inputsel_ipod">inputsel_ipod</string>
+    <string name="inputsel_xm">inputsel_xm</string>
+    <string name="inputsel_netradio">inputsel_netradio</string>
+    <string name="inputsel_usbnet">inputsel_usbnet</string>
+    <string name="inputsel_multicha">inputsel_multicha</string>
+    
+  <string name="feedbacktitle">Enter support details below:</string> 
+  <string name="feedbackname">Your Name</string> 
+  <string name="feedbackemail">Your Email</string> 
+  <string name="feedbackbody">Feedback Details...</string> 
+  <string name="feedbackresponse">Would you like an email response?</string> 
+  <string name="feedbackbutton">Send Feedback</string> 
+  <string name="feedbacktype">Enter feedback type...</string> 
+  <string name="feedbacktype1">Suggestion</string> 
+  <string name="feedbacktype2">Bug</string>
+  <string name="feedbacktype3">Gripe</string> 
+  <string name="feedbacktype4">Other</string> 
+  <string name="feedbackmessagebody_format">%1$s - %2$s\nFeedback:\n%3$s</string> 
+  <string name="feedbackmessagesubject_format">Application Feedback (%1$s)</string>  
+  
+  <string-array name="feedbacktypelist">
+  	<item>@string/feedbacktype1</item> 
+  	<item>@string/feedbacktype2</item> 
+  	<item>@string/feedbacktype3</item> 
+  	<item>@string/feedbacktype4</item> 
+  </string-array>
+</resources>

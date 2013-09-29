@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:bs="http://schemas.android.com/apk/res/bsharps.yamahawidget.main">
+
+	<PreferenceScreen android:key="@string/as_receiver_type"
+		android:id="@+id/preference_rescan_receiver" android:title="Receiver Type"
+		android:selectable="false" >
+	</PreferenceScreen>
+
+	<EditTextPreference android:title="@string/as_receiver_ip_txt"
+		android:summary="@string/as_receiver_ip_sum" android:key="@string/as_k_receiver_ip"
+		android:singleLine="true"
+		android:defaultValue="0.0.0.0">
+	</EditTextPreference>
+	
+	<PreferenceScreen android:key="ZoneInputsMaxLvlsKey"
+					  android:title="Zone Volume Levels"
+					  android:summary="Configure the maximum allowed volume levels">
+	
+	<PreferenceScreen  android:title="Zone Max Volumes"
+	android:summary="Below you can set the maximum possible volume for each zone"
+		android:selectable="false" >
+	</PreferenceScreen>
+		 <bsharps.yamahawidget.custom_widgets.SeekBarPreference android:key="zonemaxvol0"
+		        android:title="Main Zone"
+		        android:summary="Set maximum volume level"
+		        android:dialogMessage=""
+		        bs:defaultVal="-300"
+		        bs:min="-805"
+		        bs:max="0"
+		        bs:exp="1"
+		        bs:step="5"
+		        bs:unit="dB"/>
+		        
+		 <bsharps.yamahawidget.custom_widgets.SeekBarPreference android:key="zonemaxvol1"
+		        android:title="Zone 2"
+		        android:summary="Set maximum volume level"
+		        android:dialogMessage=""
+		        bs:defaultVal="-300"
+		        bs:min="-805"
+		        bs:max="0"
+		        bs:exp="1"
+		        bs:step="5"
+		        bs:unit="dB"/>
+		        
+		 <bsharps.yamahawidget.custom_widgets.SeekBarPreference android:key="zonemaxvol2"
+		        android:title="Zone 3"
+		        android:summary="Set maximum volume level"
+		        android:dialogMessage=""
+		        bs:defaultVal="-300"
+		        bs:min="-805"
+		        bs:max="0"
+		        bs:exp="1"
+		        bs:step="5"
+		        bs:unit="dB"/>
+		        
+		 <bsharps.yamahawidget.custom_widgets.SeekBarPreference android:key="zonemaxvol3"
+		        android:title="Zone 4"
+		        android:summary="Set maximum volume level (only RX7)"
+		        android:dialogMessage=""
+		        bs:defaultVal="-300"
+		        bs:min="-805"
+		        bs:max="0"
+		        bs:exp="1"
+		        bs:step="5"
+		        bs:unit="dB"/>
+   </PreferenceScreen>
+
+	<PreferenceScreen android:key="@string/as_inputsel_menu"
+						android:title="@string/as_available_inputs_txt"
+						android:summary="@string/as_available_inputs_sum">
+						
+		<PreferenceScreen android:title="@string/input_description_title"
+		  				  android:summary="@string/input_description_summary"
+		  				  android:selectable="false"/>
+	</PreferenceScreen>
+
+	<PreferenceScreen android:key="@string/as_dspsel_menu" 
+					  android:title="@string/as_available_dsps_txt"	
+					  android:summary="@string/as_available_dsps_sum">
+					  
+		<PreferenceScreen android:title="@string/dsp_description_title"
+						  android:summary="@string/dsp_description_summary"
+						  android:selectable="false" />
+	</PreferenceScreen>
+
+
+	<PreferenceScreen android:title="Help"
+					  android:summary="Setup and usage information" 
+					  android:key="HelpKey">
+		<intent
+    		android:action="android.intent.action.MAIN"
+    		android:targetPackage="bsharps.yamahawidget.main"
+    		android:targetClass="bsharps.yamahawidget.main.HelpActivity"/>
+	</PreferenceScreen>
+	
+	
+	<PreferenceScreen android:title="Rate the application"
+					  android:summary="Tell us what you think by rating the application" 
+					  android:key="@string/pref_rate">		
+	</PreferenceScreen>
+		
+	
+	<PreferenceScreen android:title="Support"
+					  android:summary="Got a problem? Suggestion? Email us" 
+					  android:key="SupportKey">
+		<intent
+    		android:action="android.intent.action.MAIN"
+    		android:targetPackage="bsharps.yamahawidget.main"
+    		android:targetClass="bsharps.yamahawidget.main.SupportActivity"/>
+	</PreferenceScreen>
+	
+	<CheckBoxPreference android:key="enableErrorReporting"
+        android:title="@string/pref_enable_acra"
+        android:summaryOn="@string/pref_acra_enabled"
+        android:summaryOff="@string/pref_acra_disabled"
+        android:defaultValue="false"/>
+        
+	
+	
+</PreferenceScreen>

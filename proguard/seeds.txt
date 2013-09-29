@@ -1,0 +1,62 @@
+bsharps.yamahawidget.custom_widgets.SeekBarPreference
+bsharps.yamahawidget.custom_widgets.SeekBarPreference: android.widget.SeekBar mSeekBar
+bsharps.yamahawidget.custom_widgets.SeekBarPreference: android.widget.TextView mSplashText
+bsharps.yamahawidget.custom_widgets.SeekBarPreference: SeekBarPreference(android.content.Context,android.util.AttributeSet)
+bsharps.yamahawidget.custom_widgets.SeekBarPreference: int convertToPreferenceValue(int)
+bsharps.yamahawidget.custom_widgets.SeekBarPreference: int convertFromPreferenceValue(int)
+bsharps.yamahawidget.custom_widgets.SeekBarPreference: void SetSliderValue(int)
+bsharps.yamahawidget.custom_widgets.SeekBarPreference: void SetSliderValue()
+bsharps.yamahawidget.custom_widgets.SeekBarPreference: void SetSliderMaxValue()
+bsharps.yamahawidget.custom_widgets.SeekBarPreference: android.view.View onCreateView(android.view.ViewGroup)
+bsharps.yamahawidget.custom_widgets.SeekBarPreference: void onBindView(android.view.View)
+bsharps.yamahawidget.custom_widgets.SeekBarPreference: void setTitle(java.lang.CharSequence)
+bsharps.yamahawidget.custom_widgets.SeekBarPreference: void UpdateSplashText()
+bsharps.yamahawidget.custom_widgets.SeekBarPreference: void onProgressChanged(android.widget.SeekBar,int,boolean)
+bsharps.yamahawidget.custom_widgets.SeekBarPreference: void onStartTrackingTouch(android.widget.SeekBar)
+bsharps.yamahawidget.custom_widgets.SeekBarPreference: void onStopTrackingTouch(android.widget.SeekBar)
+bsharps.yamahawidget.custom_widgets.CustomRangePreference: java.lang.String androidns
+bsharps.yamahawidget.custom_widgets.CustomRangePreference: android.content.Context _context
+bsharps.yamahawidget.custom_widgets.CustomRangePreference: int _default
+bsharps.yamahawidget.custom_widgets.CustomRangePreference: int _max
+bsharps.yamahawidget.custom_widgets.CustomRangePreference: int _min
+bsharps.yamahawidget.custom_widgets.CustomRangePreference: int _exp
+bsharps.yamahawidget.custom_widgets.CustomRangePreference: int _step
+bsharps.yamahawidget.custom_widgets.CustomRangePreference: java.lang.String _unit
+bsharps.yamahawidget.custom_widgets.CustomRangePreference: int _value
+bsharps.yamahawidget.custom_widgets.CustomRangePreference: android.util.AttributeSet _attributes
+bsharps.yamahawidget.custom_widgets.CustomRangePreference: CustomRangePreference(android.content.Context,android.util.AttributeSet)
+bsharps.yamahawidget.custom_widgets.CustomRangePreference: void init(android.util.AttributeSet)
+bsharps.yamahawidget.custom_widgets.CustomRangePreference: int convertToPreferenceValue(int)
+bsharps.yamahawidget.custom_widgets.CustomRangePreference: int convertFromPreferenceValue(int)
+bsharps.yamahawidget.custom_widgets.CustomRangePreference: void onSetInitialValue(boolean,java.lang.Object)
+bsharps.yamahawidget.custom_widgets.CustomRangePreference: float GetRangeProportion()
+bsharps.yamahawidget.custom_widgets.CustomRangePreference: void setRangeValue(int)
+bsharps.yamahawidget.custom_widgets.CustomRangePreference: int GetAbsRange()
+bsharps.yamahawidget.custom_widgets.CustomRangePreference: int GetNumSteps()
+bsharps.yamahawidget.custom_widgets.CustomRangePreference: void IncreaseValue()
+bsharps.yamahawidget.custom_widgets.CustomRangePreference: void DecreaseValue()
+bsharps.yamahawidget.custom_widgets.CustomRangePreference: void IncreaseXSteps(int)
+bsharps.yamahawidget.custom_widgets.CustomRangePreference: void DecreaseXSteps(int)
+bsharps.yamahawidget.custom_widgets.CustomRangePreference: int getRangeValue()
+bsharps.yamahawidget.custom_widgets.ExpandedLinearLayout
+bsharps.yamahawidget.custom_widgets.ExpandedLinearLayout: ExpandedLinearLayout(android.content.Context,android.util.AttributeSet)
+bsharps.yamahawidget.custom_widgets.ExpandedLinearLayout: void onMeasure(int,int)
+bsharps.yamahawidget.custom_widgets.ScalableImageView
+bsharps.yamahawidget.custom_widgets.ScalableImageView: float _scale
+bsharps.yamahawidget.custom_widgets.ScalableImageView: ScalableImageView(android.content.Context,android.util.AttributeSet)
+bsharps.yamahawidget.custom_widgets.ScalableImageView: void SetScaleFactor(float)
+bsharps.yamahawidget.custom_widgets.ScalableImageView: void onMeasure(int,int)
+bsharps.yamahawidget.receiver.CommandEnum: bsharps.yamahawidget.receiver.CommandEnum[] values()
+bsharps.yamahawidget.receiver.CommandEnum: bsharps.yamahawidget.receiver.CommandEnum valueOf(java.lang.String)
+bsharps.yamahawidget.main.DspSelectionDialog
+bsharps.yamahawidget.main.HelpActivity
+bsharps.yamahawidget.main.InputSelectionDialog
+bsharps.yamahawidget.main.SupportActivity
+bsharps.yamahawidget.main.VolumeDialog
+bsharps.yamahawidget.main.ZoneSelectionDialog
+bsharps.yamahawidget.settings.AppSettingsActivity
+bsharps.yamahawidget.main.TestWidget$UpdateService
+bsharps.yamahawidget.main.TestWidget
+bsharps.yamahawidget.main.BugReporter
+bsharps.yamahawidget.custom_widgets.ScalableImageView
+bsharps.yamahawidget.custom_widgets.ScalableImageView: ScalableImageView(android.content.Context,android.util.AttributeSet)

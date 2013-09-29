@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:local="http://schemas.android.com/apk/res/bsharps.yamahawidget.main"
+	android:layout_height="wrap_content" 
+	android:layout_width="fill_parent" 
+	android:orientation="vertical">
+	
+	<LinearLayout 
+		android:id="@+id/volumeslider" 
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:orientation="horizontal">
+		<bsharps.yamahawidget.custom_widgets.ExpandedLinearLayout 	
+							android:paddingLeft="10dip"
+							android:paddingRight="10dip" 
+							android:id="@+id/volume_area" 
+							android:layout_height="fill_parent" 
+							android:layout_width="fill_parent">
+			<bsharps.yamahawidget.custom_widgets.ScalableImageView
+						android:layout_width="fill_parent" 
+						android:layout_height="fill_parent"
+						android:id="@+id/volume_image"/>
+		</bsharps.yamahawidget.custom_widgets.ExpandedLinearLayout>
+	</LinearLayout>
+		
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:layout_below="@id/volumeslider">
+		 
+		<TextView 
+			android:layout_height="wrap_content"
+			android:id="@+id/volume_text"
+			android:text="The maximum volume for this zone has been reached. If you find it not loud enough, go to settings and increase the maximum volume for this zone."
+			android:paddingLeft="10dip" 
+			android:paddingRight="10dip"
+			android:paddingBottom="10dip"
+			android:visibility="visible" 
+			android:layout_gravity="center_horizontal" 
+			android:layout_width="wrap_content"/>
+			 
+	</LinearLayout>	
+</RelativeLayout>
+  

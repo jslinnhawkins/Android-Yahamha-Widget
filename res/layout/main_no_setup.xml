@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:background="@drawable/four_by_one_widget_frame_portrait"
+			android:layout_height="wrap_content"
+			android:padding="10dip" 
+			android:orientation="horizontal" 
+			android:layout_width="wrap_content" android:id="@+id/main_nosetup_frame"
+			android:clickable="true">
+				
+		<TextView 
+			android:layout_height="wrap_content" 
+			android:layout_width="wrap_content" 
+			android:layout_weight="2"
+			android:layout_gravity="center_vertical|center_horizontal"
+			android:text="Please enter receiver IP address by clicking setup" 
+			android:layout_marginLeft="40dip"
+			android:textSize="15dip" android:textStyle="bold" 
+			android:textColor="#000000"
+			android:id="@+id/main_nosetup_text"
+			android:clickable="true"/>
+
+		<ImageView  
+			android:id="@+id/open_settings_button"
+		 	android:background="@drawable/wrench_button_selector" 
+		 	android:layout_width="wrap_content" 
+		 	android:layout_height="wrap_content" 
+		 	android:layout_gravity="center_horizontal|center" 
+		 	android:layout_marginRight="20dip"/>
+</LinearLayout>

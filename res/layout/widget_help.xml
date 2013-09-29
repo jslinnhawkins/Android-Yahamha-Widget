@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/ScrollView01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+<LinearLayout 
+	
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+<TableLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:shrinkColumns="1" android:scrollbarAlwaysDrawVerticalTrack="false" android:paddingRight="2dip">
+
+    <TextView android:text="Icon Information" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_gravity="center_horizontal" android:layout_marginTop="10dip" android:layout_marginLeft="5dip"/>
+    <View android:layout_marginLeft="5dip" android:layout_marginBottom="5dip" android:layout_height="2dip" android:background="#FF909090" />
+
+  <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+	<ImageView android:tint="#FFfdfdf0" android:src="@drawable/power_default"  android:layout_height="wrap_content" android:layout_marginLeft="5dip" android:layout_gravity="left|center_horizontal"/>
+	<TextView android:text="Turns the currently selected zone on/off" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="left|center_vertical"/>
+  </TableRow>
+
+  <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView  android:tint="#FFfdfdf0" android:layout_height="wrap_content" android:src="@drawable/sound" android:layout_marginLeft="5dip" android:layout_gravity="left|center_horizontal"/>
+    <TextView android:layout_width="wrap_content" android:text="Open up the volume slider control" android:layout_height="wrap_content" android:layout_gravity="left|center_vertical"/>
+  </TableRow>
+  
+  <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+	<ImageView  android:tint="#FFfdfdf0" android:src="@drawable/zone"  android:layout_height="wrap_content" android:layout_marginLeft="5dip" android:layout_gravity="left|center_horizontal"/>
+	<TextView android:text="Selects a different zone for controlling" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="left|center_vertical"/>
+  </TableRow>
+
+  <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+	<ImageView  android:tint="#FFfdfdf0" android:src="@drawable/input_selection"  android:layout_height="wrap_content" android:layout_marginLeft="5dip" android:layout_gravity="left|center_horizontal"/>
+	<TextView android:text="Change the input source" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="left|center_vertical"/>
+  </TableRow>
+
+    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+	<ImageView  android:tint="#FFfdfdf0" android:src="@drawable/dsp_selection"  android:layout_height="wrap_content" android:layout_marginLeft="5dip" android:layout_gravity="left|center_horizontal"/>
+	<TextView android:text="Change the sound field progam" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="left|center_vertical"/>
+  </TableRow>
+
+  <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+	<ImageView  android:tint="#FFfdfdf0" android:src="@drawable/wrench"  android:layout_height="wrap_content" android:layout_marginLeft="5dip" android:layout_gravity="left|center_horizontal"/>
+	<TextView android:text="Open the configuration options" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="left|center_vertical"/>
+  </TableRow>
+  
+    <TextView android:text="Initial System Setup" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_gravity="center_horizontal" android:layout_marginTop="10dip" android:layout_marginLeft="5dip"/>
+    <View android:layout_marginLeft="5dip" android:layout_height="2dip" android:background="#FF909090" />
+
+    <TextView android:text="Before use the widget must first be configured with the IP address of your Yamaha receiver" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_gravity="center_horizontal" android:layout_marginTop="10dip" android:layout_marginLeft="5dip" android:layout_marginBottom="5dip"/>
+	  <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<TextView android:text="1." android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="left|center_vertical" android:layout_marginLeft="5dip"/>
+		<TextView android:text="Select the settings option: Receiver IP Address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="left|center_vertical"/>
+	  </TableRow>
+	  <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<TextView android:text="2." android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="left|center_vertical" android:layout_marginLeft="5dip"/>
+		<TextView android:text="Enter the address of the receiver (i.e 192.168.0.2).  The ip address can be found be looking in the Setup-Network-Configuration on the receiver" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="left|center_vertical"/>
+	  </TableRow>
+	  <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<TextView android:text="3." android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="left|center_vertical" android:layout_marginLeft="5dip"/>
+		<TextView android:text="If port forwarding is needed the format is xxx.xxx.xxx.xxx:port" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="left|center_vertical"/>
+	  </TableRow>
+	  <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<TextView android:text="4." android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="left|center_vertical" android:layout_marginLeft="5dip"/>
+		<TextView android:text="Note: The receiver will not be controllable when the internet connection is not your home network unless port forwarding is used" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="left|center_vertical"/>
+	  </TableRow>
+</TableLayout>
+</LinearLayout>
+</ScrollView>
